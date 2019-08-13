@@ -1,0 +1,53 @@
+.account-header {
+    display: flex;
+    justify-content: space-between;
+
+    .back {
+        color: #888;
+        width: 30px;
+    }
+
+    h2 {
+        margin-top: 0;
+    }
+}
+
+.account-detail{
+    display: flex;
+    margin: 15px;
+    justify-content: space-between;
+
+    .title {
+        font-weight: 600;
+        text-align: left;
+    }
+}
+table{
+    width: 100%;
+
+    .align-left{
+        text-align: left;
+    }
+    .align-right{
+        text-align: right;
+    }
+
+    .credit{
+        color: green;
+    }
+
+    .debit{
+        color: red;
+        &:before {
+            content: "-";
+        }
+    }
+}
+
+.filters{
+    margin-bottom: 15px;
+
+    ons-input, ons-button {
+      margin: 0 10px;
+    }
+}

@@ -1,0 +1,14 @@
+.account-title {
+  padding: 10px 15px 10px;
+  background: #efeff4;
+}
+
+.account-item {
+    &:not(last-child) {
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+.btn-add-account {
+    margin: 20px;
+}
