@@ -1,28 +1,62 @@
 [
   {
-    "username": "user1",
-    "firstName": "First1",
-    "lastName": "Last1",
-    "role": "merchant",
-    "banks": [{
-      "bankName": "Bank1",
-      "partyIdInfo": {
-        "partyIdType": "IBAN",
-        "partyIdentifier": "IC11in02tn01305e663e1e4611e9ab14d6"
+    "username": "adam.kocsis@dpc.hu",
+    "firstName": "John",
+    "lastName": "Smith",
+    "role": "customer",
+    "banks": [
+      {
+        "bankName": "buffalo",
+        "partyIdInfo": {
+          "partyIdType": "MSISDN",
+          "partyIdentifier": "27710101999"
+        }
       }
-    }]
+    ]
   },
   {
-    "username": "user2",
-    "firstName": "First2",
-    "lastName": "Last2",
-    "role": "customer",
-    "banks": [{
-      "bankName": "Bank2",
-      "partyIdInfo": {
-        "partyIdType": "IBAN",
-        "partyIdentifier": "IC11in01tn0131d77b06141c11e9ab14d6"
+    "username": "lion_merchant",
+    "firstName": "Carl",
+    "lastName": "Baker",
+    "role": "merchant",
+    "banks": [
+      {
+        "bankName": "lion",
+        "partyIdInfo": {
+          "partyIdType": "MSISDN",
+          "partyIdentifier": "27710102999"
+        }
       }
-    }]
+    ]
+  },
+  {
+    "username": "rhino_customer",
+    "firstName": "John",
+    "lastName": "Smith",
+    "role": "customer",
+    "banks": [
+      {
+        "bankName": "rhino",
+        "partyIdInfo": {
+          "partyIdType": "MSISDN",
+          "partyIdentifier": "27710203999"
+        }
+      }
+    ]
+  },
+  {
+    "username": "elephant_merchant",
+    "firstName": "John",
+    "lastName": "Smith",
+    "role": "merchant",
+    "banks": [
+      {
+        "bankName": "elephant",
+        "partyIdInfo": {
+          "partyIdType": "MSISDN",
+          "partyIdentifier": "27710204999"
+        }
+      }
+    ]
   }
 ]
